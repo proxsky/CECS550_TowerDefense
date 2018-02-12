@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 32fb1d61315a38d43a8920a4268b6ff9
+timeCreated: 1518187894
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earth Orbiter Extra-Bold
+  fontNames:
+  - Earth Orbiter Extra-Bold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
