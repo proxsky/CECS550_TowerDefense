@@ -15,6 +15,7 @@ public class WaveSpawner : MonoBehaviour {
     /// </summary>
     public void StartWave()
     {
+        Tracker.waveCount++;
         StartCoroutine(SpawnWave());
     }
 

@@ -41,11 +41,18 @@ public class EnemyMovement : MonoBehaviour {
         if (wavepointIndex >= Waypoints.wayPoints.Length - 1)
         {
             Destroy(gameObject);
+            Tracker.lives--;
+          
         }
         else
         {
             wavepointIndex++;
             nextWaypoint = Waypoints.wayPoints[wavepointIndex];
         }
+    }
+
+    private void OnDestroy()
+    {
+        Tracker.money += 1;
     }
 }
