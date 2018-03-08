@@ -20,9 +20,28 @@ public class Tracker : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        switch(Difficulty.difficulty)
+        {
+            case 0:
+                lives = 5;
+                money = 100;
+                break;
+            case 1:
+                lives = 3;
+                money = 75;
+                break;
+            case 2:
+                lives = 1;
+                money = 50;
+                break;
+
+            default:
+                break;
+
+        }
+
         waveCount = 0;
-        lives = 5;
-        money = 100;
+     
         gameOver = false;
         Time.timeScale = 1;
 

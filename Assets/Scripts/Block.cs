@@ -12,7 +12,7 @@ public class Block : MonoBehaviour {
     private GameObject turret; //Turret on block
 
     //testing
-    public int turretCost = 50;
+    public int turretCost = 25;
 
     void Start()
     {

@@ -44,7 +44,10 @@ public class Bullet : MonoBehaviour {
     {
         GameObject temp = Instantiate(effect, transform.position, transform.rotation);
         Destroy(temp,2f);
-        Destroy(target.gameObject);
+
+        //Destroy(target.gameObject);
+        target.GetComponent<EnemyMovement>().Damage(10);
+
         Destroy(gameObject);
 
     }

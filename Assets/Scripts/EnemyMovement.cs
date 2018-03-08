@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyMovement : MonoBehaviour {
 
     public float speed = 20f; //Movement Speed
+    public float maxHealth = 50;
+    private float health;
+
+    public Image healthBar;
 
     private Transform nextWaypoint; //Coordinates of wayPoint
     private int wavepointIndex = 0; //Track wavepoints
@@ -12,7 +17,9 @@ public class EnemyMovement : MonoBehaviour {
 	void Start ()
     {
         //Set the coordinate to the first wayPoint;
-        nextWaypoint = Waypoints.wayPoints[wavepointIndex];	
+        nextWaypoint = Waypoints.wayPoints[wavepointIndex];
+
+        health = maxHealth;
 	}	
 	
 	void Update ()
@@ -49,6 +56,15 @@ public class EnemyMovement : MonoBehaviour {
             wavepointIndex++;
             nextWaypoint = Waypoints.wayPoints[wavepointIndex];
         }
+    }
+
+    public void Damage(float damage)
+    {
+        health -= damage;
+        healthBar.fillAmount = health / maxHealth; 
+
+        if(health<=0)
+            Destroy(gameObject);
     }
 
     private void OnDestroy()
