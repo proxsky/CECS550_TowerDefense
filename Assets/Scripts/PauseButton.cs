@@ -38,7 +38,7 @@ public class PauseButton : MonoBehaviour {
     }
 
     public void QuitClicked()
-    {
+    {        
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
     }

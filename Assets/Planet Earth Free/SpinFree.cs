@@ -18,8 +18,16 @@ public class SpinFree : MonoBehaviour {
 	[HideInInspector]
 	public float directionChangeSpeed = 2f;
 
-	// Update is called once per frame
-	void Update() {
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+       
+
 		if (direction < 1f) {
 			direction += Time.deltaTime / (directionChangeSpeed / 2);
 		}
