@@ -25,12 +25,16 @@ public class Block : MonoBehaviour {
     /// </summary>
     private void OnMouseDown()
     {
-        if (turret != null) {
+        if (turret != null && Input.GetKey(KeyCode.LeftShift)) {
             Destroy(turret);
             Tracker.money += turretCost;
             return;
-
         }
+
+        if(turret != null) {
+            return;
+        }
+
         //test
         if (Time.timeScale != 0 && turretCost <= Tracker.money)
         {
