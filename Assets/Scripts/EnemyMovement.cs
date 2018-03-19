@@ -70,5 +70,6 @@ public class EnemyMovement : MonoBehaviour {
     private void OnDestroy()
     {
         Tracker.money += 1;
+        WaveSpawner.instance.EnemyDestroyed();
     }
 }
