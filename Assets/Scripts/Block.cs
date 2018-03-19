@@ -25,9 +25,12 @@ public class Block : MonoBehaviour {
     /// </summary>
     private void OnMouseDown()
     {
-        if (turret != null)
+        if (turret != null) {
+            Destroy(turret);
+            Tracker.money += turretCost;
             return;
 
+        }
         //test
         if (Time.timeScale != 0 && turretCost <= Tracker.money)
         {
