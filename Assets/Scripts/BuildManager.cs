@@ -13,9 +13,18 @@ public class BuildManager : MonoBehaviour {
 
     public GameObject turrentToBuild; //CHANGE THIS GameObject to change turret
 
+    public bool SellButtonVisible = false;
+
+    public GameObject turretToSell;
+
     public GameObject GetTurrenToBuild()
     {
         return turrentToBuild;
-    }    
+    }
+
+    public GameObject GetTurreToSell()
+    {
+        return turretToSell;
+    }
 
 }

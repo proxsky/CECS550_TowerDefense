@@ -11,6 +11,11 @@ public class Block : MonoBehaviour {
 
     private GameObject turret; //Turret on block
 
+
+   
+
+    public GameObject turretUI;
+
     //testing
     public int turretCost = 25;
 
@@ -50,11 +55,30 @@ public class Block : MonoBehaviour {
         }
 
         if(turret != null) {
+
+            //test
+            BuildManager.instance.turretToSell = turret;
+           // turretUI.transform.position = turret.transform.position;
+            //BuildManager.instance.SellButtonVisible = true;
+
+            if(BuildManager.instance.SellButtonVisible)
+            {
+                turretUI.transform.position = new Vector3(-100, -100, -100);
+                BuildManager.instance.SellButtonVisible = false;
+            }
+            else
+            {
+                BuildManager.instance.turretToSell = turret;
+                turretUI.transform.position = turret.transform.position;
+                BuildManager.instance.SellButtonVisible = true;
+            }
+
             return;
         }
 
-        //test
-        if (Time.timeScale != 0 && turretCost <= Tracker.money)
+
+        
+        if (Time.timeScale != 0 && turretCost <= Tracker.money && BuildManager.instance.SellButtonVisible==false)
         {
             Tracker.money -= turretCost;
 

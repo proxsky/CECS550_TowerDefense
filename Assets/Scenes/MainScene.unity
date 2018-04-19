@@ -260,6 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &11665516 stripped
 Transform:
@@ -357,6 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &25999040
 Prefab:
@@ -906,6 +908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &80356020 stripped
 Transform:
@@ -1013,6 +1016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &85137283
 Prefab:
@@ -1164,6 +1168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &103821166
 GameObject:
@@ -1253,6 +1258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &104788789
 Transform:
@@ -1356,6 +1362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &105295901
 Transform:
@@ -1764,6 +1771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &123464150
 Prefab:
@@ -2114,8 +2122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeca788c92cadbc489b5faf12f86cc28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turrentToBuild: {fileID: 1456997095068686, guid: d5d35085af8e3af47a6f3510a9889a10,
+  turrentToBuild: {fileID: 1755921348338098, guid: e511335d6275afe4f9ce40e54475f146,
     type: 2}
+  SellButtonVisible: 0
+  turretToSell: {fileID: 0}
 --- !u!114 &130819788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2238,6 +2248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &140535143
 GameObject:
@@ -2327,6 +2338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &141362631
 Transform:
@@ -2430,6 +2442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &157932373
 Transform:
@@ -2547,6 +2560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &164896296
 Transform:
@@ -2794,6 +2808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &175698293
 Transform:
@@ -2897,6 +2912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &180961281
 Transform:
@@ -3122,6 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &193155274
 Prefab:
@@ -3269,6 +3286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &213882113
 Transform:
@@ -3390,6 +3408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &222531698
 Prefab:
@@ -3537,6 +3556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &245498422
 Transform:
@@ -3668,6 +3688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &250900078
 GameObject:
@@ -3757,6 +3778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &259194237
 GameObject:
@@ -3846,6 +3868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &261870379
 GameObject:
@@ -3935,6 +3958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &266652385
 Transform:
@@ -4038,6 +4062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &272891112
 Transform:
@@ -4155,6 +4180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &292904928
 Prefab:
@@ -4500,6 +4526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &310447353
 Prefab:
@@ -4891,6 +4918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &365159218
 Transform:
@@ -4994,6 +5022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &366657197
 Prefab:
@@ -5385,6 +5414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &400425990
 GameObject:
@@ -5474,6 +5504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &405973460 stripped
 Transform:
@@ -5643,6 +5674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &429939934
 Transform:
@@ -5746,6 +5778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &434377643 stripped
 Transform:
@@ -5853,6 +5886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &439834867
 Prefab:
@@ -6058,6 +6092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &450164452
 Transform:
@@ -6189,6 +6224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &475188789
 Transform:
@@ -6292,6 +6328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &477175915
 GameObject:
@@ -6381,6 +6418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &483164173
 Transform:
@@ -6574,6 +6612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &511560319
 GameObject:
@@ -6663,6 +6702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &514587331
 Transform:
@@ -6766,6 +6806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &519293019
 Prefab:
@@ -6983,6 +7024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &523840487
 Prefab:
@@ -7144,6 +7186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &524242526
 GameObject:
@@ -7427,6 +7470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &534572324 stripped
 Transform:
@@ -7524,6 +7568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &540501500
 Prefab:
@@ -7681,6 +7726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &546675726
 Transform:
@@ -7870,6 +7916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &561856273
 Prefab:
@@ -8059,6 +8106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &573028078
 Transform:
@@ -8166,6 +8214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &575788033 stripped
 Transform:
@@ -8677,6 +8726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &594507860
 GameObject:
@@ -8766,6 +8816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &595832815
 GameObject:
@@ -8855,6 +8906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &596627430
 Prefab:
@@ -9078,6 +9130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &604140838
 Transform:
@@ -9587,6 +9640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &628367415
 Transform:
@@ -9732,6 +9786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &633902421 stripped
 Transform:
@@ -9825,6 +9880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &635990372
 GameObject:
@@ -9914,6 +9970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &638597855
 GameObject:
@@ -10003,6 +10060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &642455624
 GameObject:
@@ -10092,6 +10150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &643418762
 GameObject:
@@ -10181,6 +10240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &646170884 stripped
 Transform:
@@ -10274,6 +10334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &659489452
 GameObject:
@@ -10363,6 +10424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &659609845
 GameObject:
@@ -10452,6 +10514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &660533259
 Transform:
@@ -10617,6 +10680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &666387304
 Transform:
@@ -10802,6 +10866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &690517160
 Prefab:
@@ -11029,6 +11094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &707017136
 GameObject:
@@ -11118,6 +11184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &707182954
 Prefab:
@@ -11425,6 +11492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &725691594
 GameObject:
@@ -11514,6 +11582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &726552360 stripped
 Transform:
@@ -11625,6 +11694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &731155448
 Transform:
@@ -11790,6 +11860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &742537096 stripped
 Transform:
@@ -11955,6 +12026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &745079977
 Prefab:
@@ -12098,6 +12170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &764850341
 GameObject:
@@ -12187,6 +12260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &765873322
 GameObject:
@@ -12341,6 +12415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &771014564
 Transform:
@@ -12490,6 +12565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &785868152
 Prefab:
@@ -12633,6 +12709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &794391798 stripped
 Transform:
@@ -12726,6 +12803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &803632994
 GameObject:
@@ -12815,6 +12893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &803930223 stripped
 Transform:
@@ -13066,6 +13145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &819313812
 Transform:
@@ -13169,6 +13249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &821245548
 Transform:
@@ -13272,6 +13353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &828225216
 Transform:
@@ -13364,6 +13446,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -13469,6 +13552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &845156071
 Transform:
@@ -13576,6 +13660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &866702269
 Prefab:
@@ -13723,6 +13808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &877494362
 Prefab:
@@ -13877,6 +13963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &891381426 stripped
 GameObject:
@@ -13981,6 +14068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &903147195
 Prefab:
@@ -14124,6 +14212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &913592836
 Prefab:
@@ -14352,6 +14441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &918650293
 Transform:
@@ -14455,6 +14545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &921368969
 Transform:
@@ -14682,6 +14773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &954772239 stripped
 Transform:
@@ -14976,6 +15068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &975823736
 Prefab:
@@ -15123,6 +15216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &978010397
 GameObject:
@@ -15212,6 +15306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &982254531
 Transform:
@@ -15315,6 +15410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &985187364
 GameObject:
@@ -15527,6 +15623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &998973791
 Transform:
@@ -15630,6 +15727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1014883230
 GameObject:
@@ -15719,6 +15817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1020583729
 Transform:
@@ -16067,6 +16166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1054081509 stripped
 Transform:
@@ -16218,6 +16318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1059655280
 Prefab:
@@ -16419,6 +16520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1076100837
 GameObject:
@@ -16508,6 +16610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1081173558
 GameObject:
@@ -16597,6 +16700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1083239426
 GameObject:
@@ -16686,6 +16790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1086734693
 GameObject:
@@ -16775,6 +16880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1090139317
 GameObject:
@@ -16864,6 +16970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1090702364
 Transform:
@@ -16967,7 +17074,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
+--- !u!1 &1103413709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1103413710}
+  - component: {fileID: 1103413713}
+  - component: {fileID: 1103413712}
+  - component: {fileID: 1103413711}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1103413710
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103413709}
+  m_LocalRotation: {x: -0.30070576, y: 0, z: 0, w: 0.953717}
+  m_LocalPosition: {x: 0, y: 0, z: 0.71}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_Children:
+  - {fileID: 2114680198}
+  m_Father: {fileID: 1584688565}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -35, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 1.77}
+  m_SizeDelta: {x: 433, y: 396}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1103413711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103413709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1103413712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103413709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1103413713
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103413709}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1109901983
 GameObject:
   m_ObjectHideFlags: 0
@@ -17056,6 +17258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1114682912 stripped
 Transform:
@@ -17163,6 +17366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1124382950
 GameObject:
@@ -17252,6 +17456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1129802671
 Transform:
@@ -17334,6 +17539,80 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1133337512}
+--- !u!1 &1133662401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1133662402}
+  - component: {fileID: 1133662404}
+  - component: {fileID: 1133662403}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1133662402
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133662401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2114680198}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1133662403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133662401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a30f933bed2f6504bae572c0ef6aaeb7, type: 3}
+    m_FontSize: 10
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 100
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Sell: $10'
+--- !u!222 &1133662404
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1133662401}
 --- !u!4 &1137529044 stripped
 Transform:
   m_PrefabParentObject: {fileID: 478916, guid: 96b62898125915e4892dc72bd9f4e420, type: 2}
@@ -17628,6 +17907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1166251469
 GameObject:
@@ -17717,6 +17997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1170160099
 Transform:
@@ -18038,6 +18319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1222771063 stripped
 Transform:
@@ -18189,6 +18471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1226118059 stripped
 Transform:
@@ -18286,6 +18569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1236118308
 GameObject:
@@ -18375,6 +18659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1238274497
 Transform:
@@ -18568,6 +18853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1250249308
 GameObject:
@@ -18788,6 +19074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1259169901
 GameObject:
@@ -18877,6 +19164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1260997335
 Prefab:
@@ -19020,6 +19308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1275959057
 GameObject:
@@ -19109,6 +19398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1276733138
 GameObject:
@@ -19198,6 +19488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1280613343 stripped
 Transform:
@@ -19453,6 +19744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1290247431
 GameObject:
@@ -19542,6 +19834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1291439759
 Transform:
@@ -19713,6 +20006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1302495098
 GameObject:
@@ -19802,6 +20096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1304016358
 Transform:
@@ -20107,6 +20402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1361762386
 GameObject:
@@ -20196,6 +20492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1367268241
 GameObject:
@@ -20285,6 +20582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1370175290
 Transform:
@@ -20388,6 +20686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1397380403
 Transform:
@@ -20537,6 +20836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1408287784
 Transform:
@@ -20897,6 +21197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1443936029 stripped
 Transform:
@@ -21180,6 +21481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1465485733
 GameObject:
@@ -21269,6 +21571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1472831483
 Prefab:
@@ -21665,6 +21968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1504120079
 GameObject:
@@ -21754,6 +22058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1511643711
 GameObject:
@@ -21843,6 +22148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1512988871
 GameObject:
@@ -21932,6 +22238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1513053328
 GameObject:
@@ -22021,6 +22328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1514655473 stripped
 Transform:
@@ -22142,6 +22450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1526417852
 Transform:
@@ -22303,6 +22612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1532651097
 Prefab:
@@ -22508,6 +22818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1544468384
 Transform:
@@ -22889,6 +23200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1572878267
 GameObject:
@@ -23188,7 +23500,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
+--- !u!1 &1584688564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1584688565}
+  - component: {fileID: 1584688566}
+  m_Layer: 0
+  m_Name: NodeUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1584688565
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1584688564}
+  m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -42.9, y: -41.3, z: 100.9}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children:
+  - {fileID: 1103413710}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -45, y: 0, z: 0}
+--- !u!114 &1584688566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1584688564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb36f8e00ec961458042585da12202e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2114680199}
 --- !u!4 &1597218221
 Transform:
   m_ObjectHideFlags: 0
@@ -23291,6 +23646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1601503977
 GameObject:
@@ -23380,6 +23736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1614446111
 Prefab:
@@ -23545,6 +23902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1623236855
 GameObject:
@@ -23634,6 +23992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1627425419
 Prefab:
@@ -23799,6 +24158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1633573466
 GameObject:
@@ -23888,6 +24248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1634746131
 Transform:
@@ -24413,6 +24774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1704136062
 Transform:
@@ -24516,6 +24878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1713758308
 Transform:
@@ -24637,6 +25000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1727508974
 GameObject:
@@ -24726,6 +25090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1730768386
 Transform:
@@ -24901,6 +25266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1736331557 stripped
 Transform:
@@ -24994,6 +25360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1740990945 stripped
 Transform:
@@ -25155,6 +25522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1769558068
 Transform:
@@ -25300,6 +25668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1804102310
 GameObject:
@@ -25628,6 +25997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1820351553
 GameObject:
@@ -25731,6 +26101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1829833795
 Transform:
@@ -26231,6 +26602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1862804890
 Transform:
@@ -26334,6 +26706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1873338128
 GameObject:
@@ -26423,6 +26796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1880411031
 Transform:
@@ -26530,6 +26904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1890738669
 GameObject:
@@ -26759,6 +27134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1905523527
 GameObject:
@@ -27179,6 +27555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &1933784813
 Transform:
@@ -27610,6 +27987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1981810811
 GameObject:
@@ -27699,6 +28077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1985092674
 GameObject:
@@ -27880,6 +28259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &1997819535
 GameObject:
@@ -27969,6 +28349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &1998957966
 Prefab:
@@ -28130,6 +28511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &2005591754
 GameObject:
@@ -28219,6 +28601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &2011613512
 Prefab:
@@ -28366,6 +28749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &2012690255
 GameObject:
@@ -28455,6 +28839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &2013167455
 GameObject:
@@ -28544,6 +28929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &2015069728 stripped
 Transform:
@@ -28637,6 +29023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1 &2016723573
 GameObject:
@@ -28726,6 +29113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &2017864330
 Prefab:
@@ -29049,6 +29437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &2048934917
 Transform:
@@ -29244,6 +29633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &2064945016
 Transform:
@@ -29534,6 +29924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!1001 &2094105149
 Prefab:
@@ -29681,6 +30072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &2098590483 stripped
 Transform:
@@ -29774,6 +30166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &2108856367
 Transform:
@@ -29859,6 +30252,128 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 406950, guid: a5eed1cf4e0dbcb44a9092a7ba5e87c7, type: 2}
   m_PrefabInternal: {fileID: 2112902139}
+--- !u!1 &2114680197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2114680198}
+  - component: {fileID: 2114680201}
+  - component: {fileID: 2114680200}
+  - component: {fileID: 2114680199}
+  m_Layer: 0
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2114680198
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114680197}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1133662402}
+  m_Father: {fileID: 1103413710}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.6}
+  m_SizeDelta: {x: 50, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2114680199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114680197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2114680200}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1584688566}
+        m_MethodName: SellClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2114680200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114680197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2114680201
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114680197}
 --- !u!1001 &2119021520
 Prefab:
   m_ObjectHideFlags: 0
@@ -30067,6 +30582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.25356835, g: 0.5311195, b: 0.9852941, a: 0}
+  turretUI: {fileID: 1584688564}
   turretCost: 25
 --- !u!4 &2124780072 stripped
 Transform:
