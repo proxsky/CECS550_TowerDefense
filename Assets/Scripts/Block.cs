@@ -20,6 +20,24 @@ public class Block : MonoBehaviour {
         stockColor = r.material.color;
     }
 
+    private void Update()
+    {
+        switch(BuildManager.instance.GetTurrenToBuild().tag)
+        {
+            case "Basic":
+                turretCost = 25;
+                break;
+
+            case "AOE":
+                turretCost = 50;
+                break;
+
+            default:
+                break;
+
+        }
+    }
+
     /// <summary>
     /// Build turret if there isn't one on the block.
     /// </summary>

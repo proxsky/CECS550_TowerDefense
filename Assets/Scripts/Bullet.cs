@@ -5,8 +5,11 @@ using UnityEngine;
 public class Bullet : MonoBehaviour {
 
     private Transform target; //Bullet target
-
+    public float radius = 0;
     public GameObject effect; //Impact Effect
+    public int damage = 10;
+
+    public int speed = 50;
 
     public void Chase(Transform target)
     {
@@ -23,7 +26,7 @@ public class Bullet : MonoBehaviour {
         }
 
         Vector3 direction = target.position - transform.position;//Direction of target
-        float distanceThisFrame = 50 * Time.deltaTime; //How far the bullet travels per frame.
+        float distanceThisFrame = speed * Time.deltaTime; //How far the bullet travels per frame.
 
         //Means bullet has reach target, prevent over shoot.
         if(direction.magnitude<=distanceThisFrame) 
@@ -34,7 +37,7 @@ public class Bullet : MonoBehaviour {
 
         //Move the bullet towards target
         transform.Translate(direction.normalized * distanceThisFrame,Space.World);
-
+        transform.LookAt(target);
     }
 
     /// <summary>
@@ -46,11 +49,38 @@ public class Bullet : MonoBehaviour {
         Destroy(temp,2f);
 
         //Destroy(target.gameObject);
-        target.GetComponent<EnemyMovement>().Damage(10);
+
+        if(radius>0f)
+        {
+            Explode();
+        }
+        else
+        {
+            target.GetComponent<EnemyMovement>().Damage(damage);
+        }
+              
 
         Destroy(gameObject);
 
     }
 
+    void Explode()
+    {
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        foreach(Collider collider in colliders)
+        {
+            if(collider.tag=="Enemy")
+            {
+                collider.GetComponent<EnemyMovement>().Damage(damage);
+        
+            }
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, radius);
+    }
 
 }
